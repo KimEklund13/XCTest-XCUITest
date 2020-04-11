@@ -6,6 +6,7 @@ Got sample project from: https://www.hackingwithswift.com/files/XCUITestSandbox.
 Summary:
 
 Added a handful of tests on a single-view iOS application which interacts on an assortment of XCUIElements. This is an extremely simple application that serves no purpose except to demonstrate interactions with different elements for UI Tests.
+Tests are written in Swift.
 
 Demonstrates:
 * Added a new test target for UI tests
