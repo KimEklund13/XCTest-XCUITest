@@ -12,7 +12,11 @@
 		51F935FE208F339C00265114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F935FC208F339C00265114 /* Main.storyboard */; };
 		51F93600208F339D00265114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F935FF208F339D00265114 /* Assets.xcassets */; };
 		51F93603208F339D00265114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F93601208F339D00265114 /* LaunchScreen.storyboard */; };
-		E17DF033244257B40091731A /* XCUITestSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF032244257B40091731A /* XCUITestSandboxUITests.swift */; };
+		E17DF033244257B40091731A /* FieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF032244257B40091731A /* FieldTests.swift */; };
+		E17DF03D244296F50091731A /* SliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF03C244296F50091731A /* SliderTests.swift */; };
+		E17DF03F244297040091731A /* ColorButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF03E244297040091731A /* ColorButtonTests.swift */; };
+		E17DF0412442972C0091731A /* SegmentedControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF0402442972C0091731A /* SegmentedControlsTests.swift */; };
+		E17DF043244297A20091731A /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17DF042244297A20091731A /* Elements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +38,12 @@
 		51F93602208F339D00265114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51F93604208F339D00265114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E17DF030244257B40091731A /* XCUITestSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCUITestSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E17DF032244257B40091731A /* XCUITestSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUITestSandboxUITests.swift; sourceTree = "<group>"; };
+		E17DF032244257B40091731A /* FieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldTests.swift; sourceTree = "<group>"; };
 		E17DF034244257B40091731A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17DF03C244296F50091731A /* SliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTests.swift; sourceTree = "<group>"; };
+		E17DF03E244297040091731A /* ColorButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonTests.swift; sourceTree = "<group>"; };
+		E17DF0402442972C0091731A /* SegmentedControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlsTests.swift; sourceTree = "<group>"; };
+		E17DF042244297A20091731A /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +98,30 @@
 		E17DF031244257B40091731A /* XCUITestSandboxUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E17DF032244257B40091731A /* XCUITestSandboxUITests.swift */,
+				E17DF03B244296BF0091731A /* Tests */,
+				E17DF03A244296B80091731A /* Elements */,
 				E17DF034244257B40091731A /* Info.plist */,
 			);
 			path = XCUITestSandboxUITests;
+			sourceTree = "<group>";
+		};
+		E17DF03A244296B80091731A /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E17DF042244297A20091731A /* Elements.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		E17DF03B244296BF0091731A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E17DF032244257B40091731A /* FieldTests.swift */,
+				E17DF03C244296F50091731A /* SliderTests.swift */,
+				E17DF03E244297040091731A /* ColorButtonTests.swift */,
+				E17DF0402442972C0091731A /* SegmentedControlsTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17DF033244257B40091731A /* XCUITestSandboxUITests.swift in Sources */,
+				E17DF03D244296F50091731A /* SliderTests.swift in Sources */,
+				E17DF0412442972C0091731A /* SegmentedControlsTests.swift in Sources */,
+				E17DF033244257B40091731A /* FieldTests.swift in Sources */,
+				E17DF03F244297040091731A /* ColorButtonTests.swift in Sources */,
+				E17DF043244297A20091731A /* Elements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

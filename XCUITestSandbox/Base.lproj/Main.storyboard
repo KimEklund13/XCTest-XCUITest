@@ -21,6 +21,7 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-Pv-PP7">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="31"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="Text Field"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
@@ -30,7 +31,7 @@
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owT-ip-Fjc">
                                         <rect key="frame" x="0.0" y="51" width="335" height="31"/>
-                                        <accessibility key="accessibilityConfiguration" identifier="labelID"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="LabelID"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -44,6 +45,7 @@
                                     </slider>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FmZ-tk-Uuc">
                                         <rect key="frame" x="0.0" y="153" width="335" height="31"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="Progress Bar"/>
                                     </progressView>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dz3-BQ-3tA">
                                         <rect key="frame" x="0.0" y="204" width="335" height="32"/>
@@ -61,6 +63,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="668-Tu-6G5">
                                                 <rect key="frame" x="0.0" y="0.0" width="111.5" height="31"/>
                                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="Red Button"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
                                                 <state key="normal" title="Red">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -72,6 +75,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nz6-Ls-9cH">
                                                 <rect key="frame" x="111.5" y="0.0" width="112" height="31"/>
                                                 <color key="backgroundColor" red="0.0" green="0.85362204581944445" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="Green Button"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
                                                 <state key="normal" title="Green">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -83,6 +87,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QuI-l8-GMF">
                                                 <rect key="frame" x="223.5" y="0.0" width="111.5" height="31"/>
                                                 <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="Blue Button"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
                                                 <state key="normal" title="Blue">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
